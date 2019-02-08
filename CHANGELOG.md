@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [5.0.0](https://github.com/conventional-changelog/standard-version/compare/v4.4.0...v5.0.0) (2019-02-08)
+
+
+### Bug Fixes
+
+* bin now enforces Node.js > 4 ([#274](https://github.com/conventional-changelog/standard-version/issues/274)) ([e1b5780](https://github.com/conventional-changelog/standard-version/commit/e1b5780))
+* register missing dependencies ([5988bda](https://github.com/conventional-changelog/standard-version/commit/5988bda))
+* show correct pre-release tag in help output ([#259](https://github.com/conventional-changelog/standard-version/issues/259)) ([d90154a](https://github.com/conventional-changelog/standard-version/commit/d90154a))
+
+
+### chore
+
+* update testing matrix ([1d46627](https://github.com/conventional-changelog/standard-version/commit/1d46627))
+
+
+### Features
+
+* adds support for bumping for composer versions ([#262](https://github.com/conventional-changelog/standard-version/issues/262)) ([fee872f](https://github.com/conventional-changelog/standard-version/commit/fee872f))
+* fallback to tags if no meta-information file found ([#275](https://github.com/conventional-changelog/standard-version/issues/275)) ([844cde6](https://github.com/conventional-changelog/standard-version/commit/844cde6))
+* prettify generated changelog ([a037324](https://github.com/conventional-changelog/standard-version/commit/a037324))
+
+
+### BREAKING CHANGES
+
+* if no package.json, bower.json, etc., is found, we now fallback to git tags
+* removed Node 4/5 from testing matrix
+
+
+
 <a name="4.4.0"></a>
 # [4.4.0](https://github.com/conventional-changelog/standard-version/compare/v4.3.0...v4.4.0) (2018-05-21)
 
